@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".student_info">
+
+
+
+    <EditText
+        android:id="@+id/studinfo_enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enrollment no."
+        />
+
+    <EditText
+        android:id="@+id/studinfo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter name"
+        />
+
+    <EditText
+        android:id="@+id/studinfo_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter Stream"
+        />
+
+    <EditText
+        android:id="@+id/studinfo_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter semester"
+        />
+
+    <EditText
+        android:id="@+id/studinfo_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter mobile no."
+        />
+
+    <EditText
+        android:id="@+id/studinfo_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter mail id"
+        />
+
+    <EditText
+        android:id="@+id/studinfo_adderss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter Address"
+        />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/studinfo_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        />
+
+    <Button
+        android:id="@+id/studinfo_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        />
+
+    <Button
+        android:id="@+id/studinfo_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        />
+</LinearLayout>
+
+</LinearLayout>
